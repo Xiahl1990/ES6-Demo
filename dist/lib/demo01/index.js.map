@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../lib/demo01/index.js"],"names":["a","b"],"mappings":"AAAA;;AAEA;;;;AAGA;AACE,MAAIA,IAAI,EAAR;AACA,MAAIC,IAAI,CAAR;AACD","file":"index.js","sourcesContent":["\"use strict\";\n\n/**\r\n * Created by Administrator on 2016/12/4 0004.\r\n */\n{\n  var a = 10;\n  var b = 1;\n}"]}

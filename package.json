@@ -10,9 +10,14 @@
     "babel-preset-react":"*",
     "babel-preset-stage-2":"*",
     "babel-cli":"^6.0.0",
-    "babel-register":"*"
+    "babel-register":"*",
+    "eslint":"*",
+    "babel-eslint":"*",
+    "mocha":"*"
   },
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "lint": "eslint src/demo01/index.js",
+    "test": "mocha --ui qunit --compilers js:babel-core/register"
   }
 }
