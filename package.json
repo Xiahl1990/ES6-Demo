@@ -1,0 +1,13 @@
+{
+  "name": "es6-demos",
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel-preset-es2015":"*",
+    "babel-preset-react":"*",
+    "babel-preset-stage-2":"*",
+    "babel-cli":"^6.0.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  }
+}
